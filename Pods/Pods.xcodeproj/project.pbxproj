@@ -1,0 +1,907 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		A9A06AE06B89E553A8C6646F39D27675 /* Plaid */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 9DE5093DADA019E2BDAA64CAE885BBE3 /* Build configuration list for PBXAggregateTarget "Plaid" */;
+			buildPhases = (
+				E1BA0BE3AC392ADD92F1FE8109C4E189 /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+			);
+			name = Plaid;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		793903FC0F571D5F2F0C69327AB448CC /* Pods-AttainTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CB06A95CEEDD554D6B68E07009836DEF /* Pods-AttainTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B4578727A5AB26C72C6A0E7F0B7A0C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		9C758722CE3FA68717D7001E839F19AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		BFE1E5EA6B8BE53F75D4F9A23BBD8806 /* Pods-AttainTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E25620CFEFBA912DBCA974F4715742FA /* Pods-AttainTests-dummy.m */; };
+		D45270237A6BA2A6BC4A22B13A900B13 /* Pods-Attain-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F62B3ED0B6415EB77A8BB4B15BEC43E3 /* Pods-Attain-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D5519AB0B7CD8C4DCF0EA7CFD6B0010C /* Pods-Attain-AttainUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B50EE2BBA6F79DC08D2197A066A9B17 /* Pods-Attain-AttainUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0501A3AD38674C2B810303BE7997746 /* Pods-Attain-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CCA8F5AF02A331B1BD081DB6E533CA9 /* Pods-Attain-dummy.m */; };
+		E7FDF3DF90CAE821B3EB63D8C5F666C8 /* Pods-Attain-AttainUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE466B4AE11B04298A89ADB150FE0F6 /* Pods-Attain-AttainUITests-dummy.m */; };
+		EA5228D5560E0A9C2E367198463BF278 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		06EEA24705AB8C0670263A5D5C4CB188 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E79AC84A8A692483DE90CFDEC1194EFD;
+			remoteInfo = "Pods-Attain";
+		};
+		0B744773A33CC2CF581B3465413B7EBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9A06AE06B89E553A8C6646F39D27675;
+			remoteInfo = Plaid;
+		};
+		760B2888CE9A344C951FA3752C5EB583 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9A06AE06B89E553A8C6646F39D27675;
+			remoteInfo = Plaid;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		10642A70CC304D8262DBC70B4F76D5AF /* Plaid.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Plaid.debug.xcconfig; sourceTree = "<group>"; };
+		1A56ABBC3727A84207945F71027040A4 /* Pods-Attain-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Attain-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1B50EE2BBA6F79DC08D2197A066A9B17 /* Pods-Attain-AttainUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Attain-AttainUITests-umbrella.h"; sourceTree = "<group>"; };
+		1CE51D713C491883F1B8AD768B3EF9B7 /* LinkKit.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = LinkKit.xcframework; sourceTree = "<group>"; };
+		2641DB8008AC6D197AB07C14F14184DB /* Pods-Attain-AttainUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Attain-AttainUITests.release.xcconfig"; sourceTree = "<group>"; };
+		28427F3147AD83194095F68FA304C4CB /* Pods-Attain-AttainUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Attain-AttainUITests.modulemap"; sourceTree = "<group>"; };
+		2CE466B4AE11B04298A89ADB150FE0F6 /* Pods-Attain-AttainUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Attain-AttainUITests-dummy.m"; sourceTree = "<group>"; };
+		4E05BDD8B8133ED8173D4BC7CF2D43DA /* Pods_AttainTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AttainTests.framework; path = "Pods-AttainTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5769B532AE15D9785E5692D442822839 /* Pods-Attain.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Attain.release.xcconfig"; sourceTree = "<group>"; };
+		6BC44CAC0543DD00CF043E0E3D1F00A8 /* Pods-AttainTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AttainTests-Info.plist"; sourceTree = "<group>"; };
+		6CAC511C60FF897925D8FD6046DA16FD /* Pods-Attain-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Attain-frameworks.sh"; sourceTree = "<group>"; };
+		6CCA8F5AF02A331B1BD081DB6E533CA9 /* Pods-Attain-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Attain-dummy.m"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		8B84F20899E134C8188A90741E02D063 /* Pods_Attain_AttainUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Attain_AttainUITests.framework; path = "Pods-Attain-AttainUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BD9B837167C468212BADCC12F5E2740 /* Pods-Attain-AttainUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Attain-AttainUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8D3A57211299D9F78257D24CB42EF436 /* Pods-Attain-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Attain-acknowledgements.plist"; sourceTree = "<group>"; };
+		9A011CA5586C60D29DF05B338A148E82 /* Pods-AttainTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AttainTests.modulemap"; sourceTree = "<group>"; };
+		9C2103740EBDF0CC7B5BC3C56882C76C /* Pods-Attain-AttainUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Attain-AttainUITests-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0781073D66BBE737A6E08B2E6BEF1DA /* Pods-Attain-AttainUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Attain-AttainUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		ABF66DB56488AB0884BC4011A16E9422 /* Plaid-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Plaid-xcframeworks.sh"; sourceTree = "<group>"; };
+		AC9431B7E128354451B99C9EED5C40ED /* Pods-AttainTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AttainTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B64940BBEB4967C6834E6C24D06B760B /* Pods-AttainTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AttainTests.release.xcconfig"; sourceTree = "<group>"; };
+		CB06A95CEEDD554D6B68E07009836DEF /* Pods-AttainTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AttainTests-umbrella.h"; sourceTree = "<group>"; };
+		CB63135903CFC7C04A80B7D1847F778D /* Pods-Attain.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Attain.modulemap"; sourceTree = "<group>"; };
+		CE393A6EB524E4350002598E84932C62 /* Pods-AttainTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AttainTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D1BA15F072E04FB94C6AEC4DC3DE90FC /* Plaid.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Plaid.release.xcconfig; sourceTree = "<group>"; };
+		DD158753609063AB865A1EB2D4C9C5C6 /* Pods_Attain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Attain.framework; path = "Pods-Attain.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E25620CFEFBA912DBCA974F4715742FA /* Pods-AttainTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AttainTests-dummy.m"; sourceTree = "<group>"; };
+		E70CAC620EF57F9E55FC68FB05E9BAF6 /* Pods-Attain-AttainUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Attain-AttainUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E96D2D5C5B1F84C3BAA1B28FD7A3CFF0 /* Pods-Attain.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Attain.debug.xcconfig"; sourceTree = "<group>"; };
+		EB9F38DB3EAA860FD2DB75A6714BD066 /* Pods-Attain-AttainUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Attain-AttainUITests-frameworks.sh"; sourceTree = "<group>"; };
+		EEEEC75475A853CF7A133CAD3B45EF51 /* Pods-Attain-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Attain-Info.plist"; sourceTree = "<group>"; };
+		F62B3ED0B6415EB77A8BB4B15BEC43E3 /* Pods-Attain-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Attain-umbrella.h"; sourceTree = "<group>"; };
+		FDC7CC2053570456F2450A44CA3C6CF6 /* Pods-AttainTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AttainTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30E09112A9B1FDF753779D8BE952AC86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C758722CE3FA68717D7001E839F19AF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2F8A77A862495F9635AC4F3F2EE5040 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA5228D5560E0A9C2E367198463BF278 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB9174CF62678103266F7A6460F7BCE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B4578727A5AB26C72C6A0E7F0B7A0C7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B04C6623A5069312CA40C14CFA4D452 /* Pods-AttainTests */ = {
+			isa = PBXGroup;
+			children = (
+				9A011CA5586C60D29DF05B338A148E82 /* Pods-AttainTests.modulemap */,
+				FDC7CC2053570456F2450A44CA3C6CF6 /* Pods-AttainTests-acknowledgements.markdown */,
+				AC9431B7E128354451B99C9EED5C40ED /* Pods-AttainTests-acknowledgements.plist */,
+				E25620CFEFBA912DBCA974F4715742FA /* Pods-AttainTests-dummy.m */,
+				6BC44CAC0543DD00CF043E0E3D1F00A8 /* Pods-AttainTests-Info.plist */,
+				CB06A95CEEDD554D6B68E07009836DEF /* Pods-AttainTests-umbrella.h */,
+				CE393A6EB524E4350002598E84932C62 /* Pods-AttainTests.debug.xcconfig */,
+				B64940BBEB4967C6834E6C24D06B760B /* Pods-AttainTests.release.xcconfig */,
+			);
+			name = "Pods-AttainTests";
+			path = "Target Support Files/Pods-AttainTests";
+			sourceTree = "<group>";
+		};
+		44391652E6BB46602E409296F2752D01 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1CE51D713C491883F1B8AD768B3EF9B7 /* LinkKit.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		47BF73E8D17D469AD3EF23E539164EF9 /* Plaid */ = {
+			isa = PBXGroup;
+			children = (
+				44391652E6BB46602E409296F2752D01 /* Frameworks */,
+				B26398A94BF3A78574A282A7B53626A1 /* Support Files */,
+			);
+			name = Plaid;
+			path = Plaid;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		92453FD1D19312D61BDFF74E60B7C000 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F63E4C32D24CECA205C734646430C270 /* Pods-Attain */,
+				F0A0D983A10E98CAC92466196A630B29 /* Pods-Attain-AttainUITests */,
+				2B04C6623A5069312CA40C14CFA4D452 /* Pods-AttainTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B26398A94BF3A78574A282A7B53626A1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABF66DB56488AB0884BC4011A16E9422 /* Plaid-xcframeworks.sh */,
+				10642A70CC304D8262DBC70B4F76D5AF /* Plaid.debug.xcconfig */,
+				D1BA15F072E04FB94C6AEC4DC3DE90FC /* Plaid.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Plaid";
+			sourceTree = "<group>";
+		};
+		B7933AB90BD26E5E8905B1A98D46A269 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				47BF73E8D17D469AD3EF23E539164EF9 /* Plaid */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				B7933AB90BD26E5E8905B1A98D46A269 /* Pods */,
+				FA57C7C373797F3ABAAAD0ECAEA1C434 /* Products */,
+				92453FD1D19312D61BDFF74E60B7C000 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F0A0D983A10E98CAC92466196A630B29 /* Pods-Attain-AttainUITests */ = {
+			isa = PBXGroup;
+			children = (
+				28427F3147AD83194095F68FA304C4CB /* Pods-Attain-AttainUITests.modulemap */,
+				E70CAC620EF57F9E55FC68FB05E9BAF6 /* Pods-Attain-AttainUITests-acknowledgements.markdown */,
+				8BD9B837167C468212BADCC12F5E2740 /* Pods-Attain-AttainUITests-acknowledgements.plist */,
+				2CE466B4AE11B04298A89ADB150FE0F6 /* Pods-Attain-AttainUITests-dummy.m */,
+				EB9F38DB3EAA860FD2DB75A6714BD066 /* Pods-Attain-AttainUITests-frameworks.sh */,
+				9C2103740EBDF0CC7B5BC3C56882C76C /* Pods-Attain-AttainUITests-Info.plist */,
+				1B50EE2BBA6F79DC08D2197A066A9B17 /* Pods-Attain-AttainUITests-umbrella.h */,
+				A0781073D66BBE737A6E08B2E6BEF1DA /* Pods-Attain-AttainUITests.debug.xcconfig */,
+				2641DB8008AC6D197AB07C14F14184DB /* Pods-Attain-AttainUITests.release.xcconfig */,
+			);
+			name = "Pods-Attain-AttainUITests";
+			path = "Target Support Files/Pods-Attain-AttainUITests";
+			sourceTree = "<group>";
+		};
+		F63E4C32D24CECA205C734646430C270 /* Pods-Attain */ = {
+			isa = PBXGroup;
+			children = (
+				CB63135903CFC7C04A80B7D1847F778D /* Pods-Attain.modulemap */,
+				1A56ABBC3727A84207945F71027040A4 /* Pods-Attain-acknowledgements.markdown */,
+				8D3A57211299D9F78257D24CB42EF436 /* Pods-Attain-acknowledgements.plist */,
+				6CCA8F5AF02A331B1BD081DB6E533CA9 /* Pods-Attain-dummy.m */,
+				6CAC511C60FF897925D8FD6046DA16FD /* Pods-Attain-frameworks.sh */,
+				EEEEC75475A853CF7A133CAD3B45EF51 /* Pods-Attain-Info.plist */,
+				F62B3ED0B6415EB77A8BB4B15BEC43E3 /* Pods-Attain-umbrella.h */,
+				E96D2D5C5B1F84C3BAA1B28FD7A3CFF0 /* Pods-Attain.debug.xcconfig */,
+				5769B532AE15D9785E5692D442822839 /* Pods-Attain.release.xcconfig */,
+			);
+			name = "Pods-Attain";
+			path = "Target Support Files/Pods-Attain";
+			sourceTree = "<group>";
+		};
+		FA57C7C373797F3ABAAAD0ECAEA1C434 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD158753609063AB865A1EB2D4C9C5C6 /* Pods_Attain.framework */,
+				8B84F20899E134C8188A90741E02D063 /* Pods_Attain_AttainUITests.framework */,
+				4E05BDD8B8133ED8173D4BC7CF2D43DA /* Pods_AttainTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		AA0D7B05B5FB2AEB533FE7222A0031FF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5519AB0B7CD8C4DCF0EA7CFD6B0010C /* Pods-Attain-AttainUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B80EB55CE6AD22182E1DC408E6E52AF9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				793903FC0F571D5F2F0C69327AB448CC /* Pods-AttainTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B906F917B86EA67FE58585D615AA974D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D45270237A6BA2A6BC4A22B13A900B13 /* Pods-Attain-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		16769C3538FC1581497AB7B2717F8272 /* Pods-AttainTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 048DF42F652DDF119F1E9EC82519CD1A /* Build configuration list for PBXNativeTarget "Pods-AttainTests" */;
+			buildPhases = (
+				B80EB55CE6AD22182E1DC408E6E52AF9 /* Headers */,
+				8624440ACF539DF423C1991AC847415D /* Sources */,
+				30E09112A9B1FDF753779D8BE952AC86 /* Frameworks */,
+				71607ADE3F8DCD573B9F30D1E7A75945 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4BECDC234CA8BC4C4C48207C5FF4B2DC /* PBXTargetDependency */,
+			);
+			name = "Pods-AttainTests";
+			productName = "Pods-AttainTests";
+			productReference = 4E05BDD8B8133ED8173D4BC7CF2D43DA /* Pods_AttainTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BC75B916433F19B7615FCE031E175916 /* Pods-Attain-AttainUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A27731D1E3D2331B84A992BB7590B0FC /* Build configuration list for PBXNativeTarget "Pods-Attain-AttainUITests" */;
+			buildPhases = (
+				AA0D7B05B5FB2AEB533FE7222A0031FF /* Headers */,
+				4AA117F2D63DE8AFD6EE5A5B5FBC35D4 /* Sources */,
+				AB9174CF62678103266F7A6460F7BCE3 /* Frameworks */,
+				652450FD6BF814DE98FE380204016AE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1934112D9D50CCEE7E1F7A97B64618C7 /* PBXTargetDependency */,
+			);
+			name = "Pods-Attain-AttainUITests";
+			productName = "Pods-Attain-AttainUITests";
+			productReference = 8B84F20899E134C8188A90741E02D063 /* Pods_Attain_AttainUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E79AC84A8A692483DE90CFDEC1194EFD /* Pods-Attain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8491507A848F5DEE6207AC656455F851 /* Build configuration list for PBXNativeTarget "Pods-Attain" */;
+			buildPhases = (
+				B906F917B86EA67FE58585D615AA974D /* Headers */,
+				18107B3460FA5C2AB832D505837A811F /* Sources */,
+				A2F8A77A862495F9635AC4F3F2EE5040 /* Frameworks */,
+				2A0D7007B30C89B4AD1CB3EF4575DB13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E0D7B6231764A74C2B8EA15FCCE1C3F /* PBXTargetDependency */,
+			);
+			name = "Pods-Attain";
+			productName = "Pods-Attain";
+			productReference = DD158753609063AB865A1EB2D4C9C5C6 /* Pods_Attain.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = FA57C7C373797F3ABAAAD0ECAEA1C434 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9A06AE06B89E553A8C6646F39D27675 /* Plaid */,
+				E79AC84A8A692483DE90CFDEC1194EFD /* Pods-Attain */,
+				BC75B916433F19B7615FCE031E175916 /* Pods-Attain-AttainUITests */,
+				16769C3538FC1581497AB7B2717F8272 /* Pods-AttainTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A0D7007B30C89B4AD1CB3EF4575DB13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		652450FD6BF814DE98FE380204016AE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71607ADE3F8DCD573B9F30D1E7A75945 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E1BA0BE3AC392ADD92F1FE8109C4E189 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Plaid/Plaid-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Plaid/Plaid-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Plaid/Plaid-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18107B3460FA5C2AB832D505837A811F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0501A3AD38674C2B810303BE7997746 /* Pods-Attain-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AA117F2D63DE8AFD6EE5A5B5FBC35D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7FDF3DF90CAE821B3EB63D8C5F666C8 /* Pods-Attain-AttainUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8624440ACF539DF423C1991AC847415D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFE1E5EA6B8BE53F75D4F9A23BBD8806 /* Pods-AttainTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1934112D9D50CCEE7E1F7A97B64618C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Plaid;
+			target = A9A06AE06B89E553A8C6646F39D27675 /* Plaid */;
+			targetProxy = 760B2888CE9A344C951FA3752C5EB583 /* PBXContainerItemProxy */;
+		};
+		3E0D7B6231764A74C2B8EA15FCCE1C3F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Plaid;
+			target = A9A06AE06B89E553A8C6646F39D27675 /* Plaid */;
+			targetProxy = 0B744773A33CC2CF581B3465413B7EBB /* PBXContainerItemProxy */;
+		};
+		4BECDC234CA8BC4C4C48207C5FF4B2DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Attain";
+			target = E79AC84A8A692483DE90CFDEC1194EFD /* Pods-Attain */;
+			targetProxy = 06EEA24705AB8C0670263A5D5C4CB188 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		125C51B0F88E28C868DC90BD45E4E727 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		18DED59A233C450D87A16ED797852841 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2641DB8008AC6D197AB07C14F14184DB /* Pods-Attain-AttainUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Attain-AttainUITests/Pods-Attain-AttainUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Attain-AttainUITests/Pods-Attain-AttainUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1E821238022BF6D0D7B494AB16214212 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1BA15F072E04FB94C6AEC4DC3DE90FC /* Plaid.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		23721DDCCD7CD8C0E09B56EE01B9B29A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE393A6EB524E4350002598E84932C62 /* Pods-AttainTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AttainTests/Pods-AttainTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AttainTests/Pods-AttainTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		51BAFFB9E897AB6CA31EB9769B3E8CDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5769B532AE15D9785E5692D442822839 /* Pods-Attain.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Attain/Pods-Attain-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Attain/Pods-Attain.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		66FD2AB99AF4A98A9C5F6499C3B87A5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10642A70CC304D8262DBC70B4F76D5AF /* Plaid.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		92A3E9AC052A7345115439021B218E3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		94415CB1976F13BC94E1C177E65B9F24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0781073D66BBE737A6E08B2E6BEF1DA /* Pods-Attain-AttainUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Attain-AttainUITests/Pods-Attain-AttainUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Attain-AttainUITests/Pods-Attain-AttainUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C6257E12582FA562794791B51E6D0E13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E96D2D5C5B1F84C3BAA1B28FD7A3CFF0 /* Pods-Attain.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Attain/Pods-Attain-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Attain/Pods-Attain.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E9DBEA23A49CE70817FB0021F851C3F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B64940BBEB4967C6834E6C24D06B760B /* Pods-AttainTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AttainTests/Pods-AttainTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AttainTests/Pods-AttainTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		048DF42F652DDF119F1E9EC82519CD1A /* Build configuration list for PBXNativeTarget "Pods-AttainTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23721DDCCD7CD8C0E09B56EE01B9B29A /* Debug */,
+				E9DBEA23A49CE70817FB0021F851C3F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				125C51B0F88E28C868DC90BD45E4E727 /* Debug */,
+				92A3E9AC052A7345115439021B218E3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8491507A848F5DEE6207AC656455F851 /* Build configuration list for PBXNativeTarget "Pods-Attain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6257E12582FA562794791B51E6D0E13 /* Debug */,
+				51BAFFB9E897AB6CA31EB9769B3E8CDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DE5093DADA019E2BDAA64CAE885BBE3 /* Build configuration list for PBXAggregateTarget "Plaid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66FD2AB99AF4A98A9C5F6499C3B87A5A /* Debug */,
+				1E821238022BF6D0D7B494AB16214212 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A27731D1E3D2331B84A992BB7590B0FC /* Build configuration list for PBXNativeTarget "Pods-Attain-AttainUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94415CB1976F13BC94E1C177E65B9F24 /* Debug */,
+				18DED59A233C450D87A16ED797852841 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
